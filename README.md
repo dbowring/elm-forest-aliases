@@ -5,7 +5,7 @@ Used for compatability with tools that expect these names to be available.
 
 ## Installation
 
-`npm install -g elm-forest-alias-elm`
+`npm install -g elm-forest-aliases`
 
 ## Usage
 
