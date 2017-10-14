@@ -1,0 +1,36 @@
+{
+  "name": "elm-forest-aliases",
+  "version": "0.0.1",
+  "description": "Binary name compatability for elm-forest",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --project src/"
+  },
+  "bin": {
+    "elm": "lib/index.js",
+    "elm-make": "lib/index.js",
+    "elm-package": "lib/index.js",
+    "elm-reactor": "lib/index.js",
+    "elm-repl": "lib/index.js",
+    "elm-format": "lib/index.js",
+    "elm-oracle": "lib/index.js"
+  },
+  "author": {
+    "name": "Daniel Bowring",
+    "email": "danieltbowring+npm@gmail.com",
+    "url": "https://danielb.codes"
+  },
+  "repository": "https://github.com/dbowring/elm-forest-alias-elm",
+  "files": [
+    "lib"
+  ],
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "elm-forest": "0.0.19"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.34",
+    "typescript": "^2.5.3"
+  }
+}

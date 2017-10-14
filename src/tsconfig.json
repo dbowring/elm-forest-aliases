@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2015",
+        "outDir": "../lib",
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noImplicitThis": true,
+        //"noImplicitAny": true,
+        "alwaysStrict": true,
+        "strictNullChecks": true,
+        //"declaration": true
+    },
+    "files": ["index.ts"]
+}
